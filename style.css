@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+select {
+    -webkit-appearance: none;
+    --noz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+    width: 70px;
+    text-align: center;
+}
+
+header {
+    padding: 30px 0;
+    border-bottom: 2px solid #DEDBDB;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .container div img {
+    width: 30px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section form {
+    width: 50%;
+    border: 2px solid #DEDBDB;
+    margin-top: 48px;
+    padding: 30px 48px;
+    border-radius: 25px;
+}
+
+section .logo img {
+    width: 100px;
+}
+
+section .logo a img {
+    width: 25px;
+}
+
+section .logo a {
+    color: #F0400F;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #0E0D5D;
+    margin-top: 100px;
+}
+
+section input {
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border-color: #75757530;
+    box-sizing: border-box;
+}
+
+section .qr-code {
+    text-align: center;
+    margin: 10px 0;
+}
+
+section .qr-code a {
+    color: #000000A3;
+    text-decoration: none;
+}
+
+section .login button {
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+section .login {
+    text-align: end;
+}
